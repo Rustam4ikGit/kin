@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/fonts/stylesheet.css">
+  <link rel="stylesheet" href="scss/header.scss">
+  <link rel="stylesheet" href="scss/main.scss">
+  <link rel="stylesheet" href="scss/footer.scss">
+  <link rel="stylesheet" href="scss/media.scss">
+  <title class="movie-page-title">Kinoarea</title>
+</head>
+
+<body>
+  <div id="section_1" class="glav_conatiner">
+    <div class="header_cont">
+      <div class="header"></div>
+    </div>
+    <div class="media_header">
+    <div class="search_btn">
+      <img class="search_btn_img" src="search_btn_icon.svg" alt="">
+    </div>
+    <img class="media_logo" src="/public/logo.svg" alt="">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><i class="fas fa-bars"></i><img class="menu_" src="/public/menu.svg"
+        alt=""></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="#">Афиша</a></li>
+        <li><a href="#">Медиа</a></li>
+        <li><a href="#">Фильмы</a></li>
+        <li><a href="#">Актёры</a></li>
+        <li><a href="#">Новости</a></li>
+      </ul>
+    </div>
+  </div>
+    <main class="main">
+      <section class="now_in_movie">
+        <div class="header_movie">
+          <div class="title_movie">
+            <h1>Сейчас в кино</h1>
+          </div>
+          <div class="line_movie">
+          </div>
+          <div class="geners">
+            <ul class="type_genres"></ul>
+          </div>
+        </div>
+        <div class="now_in_movie_post">
+        </div>
+        <div class="btn_cont">
+          <button data-bool="false" class="show">Все новинки</button>
+        </div>
+      </section>
+      <section class="trailers">
+        <div class="trailers_head">
+          <div class="trailers_title">
+            <h2>Новые трейлеры</h2>
+          </div>
+          <div class="watchall">
+            <a href="#">
+              <span>Все трейлеры</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16" fill="none">
+                <path
+                  d="M26.7071 8.70711C27.0976 8.31658 27.0976 7.68342 26.7071 7.2929L20.3431 0.928934C19.9526 0.53841 19.3195 0.538409 18.9289 0.928934C18.5384 1.31946 18.5384 1.95262 18.9289 2.34315L24.5858 8L18.9289 13.6569C18.5384 14.0474 18.5384 14.6805 18.9289 15.0711C19.3195 15.4616 19.9526 15.4616 20.3431 15.0711L26.7071 8.70711ZM-8.74228e-08 9L26 9L26 7L8.74228e-08 7L-8.74228e-08 9Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="trailers__post">
+          <iframe src="" frameborder="0" allowfullscreen>
+          </iframe>
+          <div class="info_post">
+            <div class="info_post_left">
+              <h3 class="info_post_title"></h3>
+              <ul>
+              </ul>
+            </div>
+            <div class="content__info-right">
+              <div class="btns_">
+                <div class="like_box">
+                  <button class="like-button">
+                    <img src="like.svg" alt="like">
+                  </button>
+                  <span class="likes-count">7193</span>
+                </div>
+                <div class="dislike_box">
+                  <button class="dislike-button">
+                    <img class="" src="dislike.svg" alt="dislike">
+                  </button>
+                  <span class="dislikes-count">91</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div></div>
+            <div class="c_wrap"></div>
+          </div>
+      </section>
+      <section class="famous_people">
+        <div class="header___">
+          <div class="title___">
+            <h2>Популярные персоны</h2>
+          </div>
+          <div class="line___"></div>
+          <div class="categories___">
+            <ul class="list___">
+              <li class="time_" data-date="year">За год</li>
+              <li class="time_" data-date="month">За месяц</li>
+              <li class="time_" data-date="week">За неделю</li>
+            </ul>
+          </div>
+        </div>
+        <div class="popular-persons__content">
+          <div class="card___">
+            <img src="/public/image 26 (1).jpg" alt="">
+            <p class="place">1-е место</p>
+            <div class="info___">
+              <h1 class="h1___">Квентин Тарантино
+                <p class="p___">Quentin Tarantino
+                </p>
+                <p class="year____">57 лет</p>
+              </h1>
+            </div>
+          </div>
+          <div class="card___">
+            <img src="/public/image 26.jpg" alt="">
+            <p class="place">2-е место</p>
+            <div class="info___">
+              <h1 class="h1___">Джейсон Стейтем
+                <p class="p___">Jason Statham
+                </p>
+                <p class="year____">52 года</p>
+              </h1>
+            </div>
+          </div>
+          <div class="others">
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Тинто Брасс</h1>
+                <p class="name_actor_">Tinto Brass</p>
+                <p class="year_actor_">87 лет</p>
+              </div>
+              <p class="plase_actor">3-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Джеки Чан</h1>
+                <p class="name_actor_">Jackie Chan</p>
+                <p class="year_actor_">66 лет</p>
+              </div>
+              <p class="plase_actor">4-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Том Харди</h1>
+                <p class="name_actor_">Tom Hardy</p>
+                <p class="year_actor_">42 года</p>
+              </div>
+              <p class="plase_actor">5-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Том Харди</h1>
+                <p class="name_actor_">Akshay Kumar</p>
+                <p class="year_actor_">52 года</p>
+              </div>
+              <p class="plase_actor">6-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Акшай Кумар</h1>
+                <p class="name_actor_">Concord CA</p>
+                <p class="year_actor_">22 года</p>
+              </div>
+              <p class="plase_actor">7-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Джонни Депп</h1>
+                <p class="name_actor_">Memphis</p>
+                <p class="year_actor_">81 лет</p>
+              </div>
+              <p class="plase_actor">8-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Леонардо ДиКаприо</h1>
+                <p class="name_actor_">Uvalde</p>
+                <p class="year_actor_">12 года</p>
+              </div>
+              <p class="plase_actor">9-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Киану Ривз</h1>
+                <p class="name_actor_">New York</p>
+                <p class="year_actor_">94 года</p>
+              </div>
+              <p class="plase_actor">10-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Уилл Смит</h1>
+                <p class="name_actor_">Dorchester</p>
+                <p class="year_actor_">42 года</p>
+              </div>
+              <p class="plase_actor">11-е место</p>
+            </div>
+            <div class="el_others">
+              <div class="b0x">
+                <h1 class="h10_">Брэд Питт</h1>
+                <p class="name_actor_">Newmarket</p>
+                <p class="year_actor_">17 лет</p>
+              </div>
+              <p class="plase_actor">12-е место</p>
+            </div>
+          </div>
+        </div>
+        <a href="#section_1"><button id="scrollButton" class="hidden">Вверх</button></a>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="modules/helper.js"></script>
+    <script src="/modules/header.js"></script>
+    <script src="/modules/footer.js"></script>
+</body>
+
+</html>

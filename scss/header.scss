@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .header_left {
+    .logo_kinoarea {
+      animation: table-appear 0.8s ease-in-out;
+    }
+
+    .socials {
+      display: flex;
+      gap: 10px;
+
+      .social {
+        width: 15px;
+        height: 15px;
+        animation: table-appear 0.8s ease-in-out;
+      }
+    }
+  }
+
+  .header_center {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    animation: table-appear 0.8s ease-in-out;
+
+    .navigation {
+      padding: 7px;
+      border-radius: 10px;
+      color: #FFF;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      transition: background-color 0.3s ease, opacity 0.3s ease;
+      animation: table-appear 0.8s ease-in-out;
+
+      &:hover {
+        background-color: #3657CB;
+        opacity: 0.8;
+        color: #FFF;
+      }
+    }
+  }
+
+  .header_right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .search_btn {
+      width: 50px;
+      height: 45px;
+      cursor: pointer;
+      border: 0;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 0px 20px 0px white;
+      animation: table-appear 0.8s ease-in-out;
+
+      transition: transform 0.5s ease-in-out;
+
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes table-appear {
+      from {
+        opacity: 0;
+        transform: translateY(56%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .search_btn_img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .enter_btn {
+      width: 138px;
+      height: 45px;
+      border-radius: 10px;
+      background: #3657CB;
+      box-shadow: 0px 0px 20px 0px rgba(72, 113, 255, 0.80);
+      border: 0;
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 166.5%;
+      cursor: pointer;
+      animation: table-appear 0.8s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
+
+
+  }
+
+  .my_pr {
+    width: 108px;
+    height: 45px;
+    border-radius: 10px;
+    background: #3657CB;
+    box-shadow: 0px 0px 20px 0px rgba(72, 113, 255, 0.80);
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%;
+    cursor: pointer;
+    animation: table-appear 0.8s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+.logo_kinoarea{
+  cursor: pointer;
+}
+

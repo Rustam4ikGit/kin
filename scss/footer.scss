@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+footer {
+    background: #151A26;
+    width: 100%;
+}
+
+.footer_box {
+    max-width: 1220px;
+    margin: 0 auto;
+    background-image: url(../public/footer_back.svg);
+    background-size: cover;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_img {
+    width: 140px;
+    height: 35px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.footer_h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.p____ {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.2%;
+    margin-bottom: 30px;
+}
+
+.footer_inp {
+    width: 425px;
+    height: 71px;
+    border-radius: 10px;
+    background: #FFF;
+    border: 0;
+    padding: 22px;
+    outline: none;
+    transition: border-color 0.3s linear;
+    overflow: hidden;
+    margin-bottom: 22px;
+    color: #151A26;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%;
+}
+
+.footer_inp:focus {
+    border: 3px solid;
+    border-color: #F2F60F;
+    outline: none;
+}
+
+.footer_inp::placeholder {
+    color: #151A26;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%;
+}
+
+.footer_btn {
+    width: 182px;
+    height: 71px;
+    border-radius: 10px;
+    background: #F2F60F;
+    border: 0;
+    cursor: pointer;
+    color: #151A26;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%;
+}
+
+.footer_p {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.2%;
+}
+
+.conf {
+    color: #F2F60F;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.2%;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.box_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_form{
+    display: flex;
+    gap: 10px;
+}
